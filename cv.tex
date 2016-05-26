@@ -1,0 +1,35 @@
+\NeedsTeXFormat{LaTeX2e}
+\documentclass{curve}
+\makeatletter\let\mykeyfont\@keyfont\makeatother
+\usepackage[margin=1cm]{geometry}
+\usepackage[pdftitle={Bruce Ricard resume}, pdfauthor={Bruce Ricard}]{hyperref}
+\usepackage[usenames,dvipsnames]{xcolor}
+\usepackage{graphicx}
+\leftheader{Bruce Ricard\\
+  San Francisco bay area, California}
+
+\rightheader{bruce.ricard@gmail.com\\
+  (650) 215-8426}
+
+\title{Software Engineer}
+\subtitle{Master in computer science and mathematics}
+
+\begin{document}
+
+\makeheaders[t]
+\maketitle
+
+\makerubric{experience}
+\newpage
+\makeheaders[t]
+
+\makerubric{education}
+\makerubric{skills}
+\makerubric{languages}
+\makerubric{other}
+
+\vfill
+\begin{center}
+\tiny Bruce Ricard, August 2015. Made with \LaTeXe
+\end{center}
+\end{document}
