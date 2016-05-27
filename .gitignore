@@ -1,2 +1,6 @@
 *~
 #*#
+*.aux
+*.log
+cv.out
+cv.pdf
