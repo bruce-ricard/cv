@@ -1,51 +1,26 @@
 \begin{rubric}{\color{ForestGreen} Professional Experience}
 
-  \entry*[\color{ForestGreen} Nov 17 - present] Open source engineer
-  for Cloud Foundry. Java, Golang, Ruby.
-  \entry*[\href{https://tanzu.vmware.com/}{\color{ForestGreen} \textbf {Pivotal, VMware}}]
-  Significantly increased product quality and security by encouraging
-  secure practices, improving code quality, mentoring
-  \entry*[\color{ForestGreen} San Francisco, CA]
-  Improved reliability of our CI/CD pipeline, through solid designs
-  and reworking flaky tests
-  \entry* Networking, routing, \href{https://en.wikipedia.org/wiki/OAuth}{OAuth}
 
-  \entry*[\color{ForestGreen} Oct 16 - June 17] Designing and implementing cross team interface for sharing data
-  \entry*[\color{ForestGreen} \textbf {LiveRamp}, CA]
-  Using map-reduce (Java Cascading) to process daily terabytes of data
-
-  \entry*[\color{ForestGreen} Nov 15 - May 16] Engineer in the core backend team
-  \entry*[\color{ForestGreen} \textbf {MachineZone}, CA]
-  Maintaining core cross-team server side code base, writen in PHP
-
-  \entry*[\color{ForestGreen} Oct 14 - Oct 15] Engineer in the user data-base team
-  \entry*[\color{ForestGreen} \textbf {TubeMogul}, CA]
-  System is built using Java and Kafka. Storing data in DynamoDB,
-  Couchbase, Aerospike
-
-  \entry*[\color{ForestGreen} {Feb 13 - Sep 14}]  Engineer in {Adwords Express}
-  \entry*[\color{NavyBlue} G\color{Red} o\color{YellowOrange} o\color{NavyBlue} g\color{ForestGreen} l\color{Red} e\color{ForestGreen}, CA]
-  Working with Java, C++, Flume. Owning and maintaining the team's
-  dashboard, with over 25 graphs reporting production status.
+\entry*[\color{ForestGreen} Nov 2017 - Jan 2024] \textbf{Senior Member of Technical Staff (Lead Security Software Engineer)}
+\entry*[\href{https://tanzu.vmware.com/}{\color{ForestGreen} \textbf {Pivotal, VMware}}] \textbf{Deployment Integrity \& Pipeline Resilience:} Autonomously executed a 3-week architectural overhaul of the primary CI/CD pipeline to eradicate non-deterministic tests. Discovered and remediated a critical supply-chain flaw where the deployment artifact decoupled from the tested commit, restoring strict trust to the release process.
+\entry* \textbf{Infrastructure Auditing \& Undefined Behavior Elimination:} Championed the eradication of "silent failures" across the platform's infrastructure layer. By enforcing strict, self-documenting fail-fast execution (\texttt{set -o errexit -o nounset -o pipefail}) during deep script audits, successfully exposed and remediated critical, multi-year state vulnerabilities masked by swallowed errors.
+\entry* \textbf{Identity Architecture \& Threat Modeling:} Conducted comprehensive security audits of the Cloud Foundry deployment architecture. Championed the remediation of insecure OAuth configurations (e.g., public admin clients) and advocated for strict code maintainability within the UAA identity provider as a foundational security boundary.
+\entry* \textbf{Open Source Governance \& System Integrity:} Managed upstream identity contributions from major enterprise partners (SAP) for the open-source UAA repository. Navigated complex organizational dynamics to defend architectural boundaries and enforce code quality standards on critical security infrastructure.
+\entry* \textbf{Secure UX \& API Design:} Pioneered the architectural philosophy that ambiguous UX introduces critical security vulnerabilities. Advocated for redesigned backend error propagation and informational APIs to ensure downstream developers and end-users could safely and correctly integrate with the platform.
+\entry* \textbf{Engineering Culture \& Git Archeology:} Led weekly architectural tech forums and established foundational engineering standards across the org. Authored comprehensive guidelines on atomic version control ("Great Commits") to drastically reduce cognitive load and minimize MTTR during Sev-1 root-cause analysis.
 
 
-  \entry*[\color{ForestGreen} Oct 10 - Feb 13]
-  Engineer in the {search engine team}
-  \entry*[\color{ForestGreen} \textbf{Mylife.com}]
-  Rewrote the whole search engine in Python with Solr and Cassandra
-  \entry*[\color{ForestGreen} Mountain View,]
-  Previously working with Ocaml, Lucene, Hbase
-  \entry*[\color{ForestGreen} California]
-  Preparing multi-terabyte data and index in Hadoop
+\entry*[{\begin{tabular}[t]{@{}l@{}}\color{ForestGreen} Oct 2016 - Jun 2017 \\ \color{ForestGreen} \textbf{LiveRamp, CA}\end{tabular}}] Architected cross-domain data interfaces and managed MapReduce data pipelines processing multi-terabyte daily workloads.
 
+\entry*[{\begin{tabular}[t]{@{}l@{}}\color{ForestGreen} Nov 2015 - May 2016 \\ \color{ForestGreen} \textbf{MachineZone, CA}\end{tabular}}] Engineered high-throughput backend services to support massive-scale concurrent state and telemetry.
 
-  \entry*[\color{ForestGreen} Dec 09 - Sep 10]
-  .NET and java programmer
-  \entry*[\multicolumn{1}{@{}>{\mykeyfont}p{3cm}}{%
-      \color{ForestGreen} \textbf{Bouygues}
-      \newline Paris, France}]
-  Maintaining internal software controlling the real-time flow of
-  commercial text messages automatically sent to customers or received
-  from them
+\entry*[{\begin{tabular}[t]{@{}l@{}}\color{ForestGreen} Oct 2014 - Oct 2015 \\ \color{ForestGreen} \textbf{TubeMogul, CA}\end{tabular}}] Hardened data ingestion and reporting layers for programmatic video advertising infrastructure.
 
+\\
+
+\entry*[{\begin{tabular}[t]{@{}l@{}}\color{ForestGreen} Feb 2013 - Sep 2014 \\ \color{ForestGreen} \textbf{Google, CA}\end{tabular}}] Engineered production telemetry and data pipelines (Java/C++/Flume) to monitor critical infrastructure for AdWords Express.
+
+\entry*[{\begin{tabular}[t]{@{}l@{}}\color{ForestGreen} Oct 2010 - Feb 2013 \\ \color{ForestGreen} \textbf{Mylife.com, CA}\end{tabular}}] Architected a ground-up rewrite of the core search engine (Python/Solr), migrating multi-terabyte Hadoop indexes.
+
+\entry*[{\begin{tabular}[t]{@{}l@{}}\color{ForestGreen} Dec 2009 - Sep 2010 \\ \color{ForestGreen} \textbf{Bouygues, France}\end{tabular}}] Maintained real-time telecommunications software controlling high-volume automated commercial SMS flows.
 \end{rubric}
